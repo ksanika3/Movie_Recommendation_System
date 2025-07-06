@@ -9,7 +9,6 @@ A modern, visually appealing movie recommendation system built with **Streamlit*
 - **Smart Recommendations**: Get similar movies based on content features (genres, cast, keywords).
 - **Detailed Movie Info**: View cast, genres, ratings, overview, and more.
 - **Graceful Fallbacks**: Handles missing posters and data with placeholders.
-- **No Empty Cards**: Only displays as many cards as there are movies in a row.
 - **One-Click Navigation**: Click a movie to see details and recommendations, with a "Back" button to return.
 
 ## 🚀 Quick Start
