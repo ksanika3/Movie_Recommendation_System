@@ -146,7 +146,7 @@ def display_movie_grid(movies, n_cols=4):
                     if st.button(movie['title'], key=f"main_{movie['id']}"):
                         st.session_state.selected_movie_id = int(movie['id'])
                         st.session_state.page = 'detail'
-                        st.experimental_rerun()
+                        
                     meta = f"{genres} {year}" if genres or year else ""
                     if meta.strip():
                         st.markdown(f'<div class="movie-meta">{meta}</div>', unsafe_allow_html=True)
